@@ -1,3 +1,5 @@
+This is a copy that try to keep up-to-date (ubuntu and PostgreSQL) the example given by PostgreSQL
+
 ### What is it?
 
 A Vagrant configuration that starts up a PostgreSQL database in a virtual machine for local application development.
@@ -40,9 +42,9 @@ Once it has started up it will print out how to access the database on the virtu
     Your PostgreSQL database has been setup and can be accessed on your local machine on the forwarded port (default: 15432)
       Host: localhost
       Port: 15432
-      Database: myapp
-      Username: myapp
-      Password: dbpass
+      Database: default
+      Username: default
+      Password: default
 
     Admin access to postgres user via VM:
       vagrant ssh
